@@ -1,0 +1,33 @@
+[project]
+name = "primitive-db"
+version = "0.1.0"
+description = "Простая консольная база данных на Python: таблицы, CRUD-операции, хранение в JSON"
+readme = "README.md"
+authors = [{ name = "Дарья", email = "dashaarent@icloud.com" }]
+requires-python = ">=3.12"
+dependencies = [
+    "prettytable>=3.0",
+    "prompt>=0.4",
+]
+
+[project.scripts]
+project = "primitive_db.main:main"
+database = "primitive_db.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.6",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+exclude = ["venv", ".venv", "dist", "__pycache__"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = []
