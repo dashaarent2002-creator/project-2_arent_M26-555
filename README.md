@@ -51,7 +51,7 @@ uv run database   # или: make run
 ```
 
 <!-- Вставьте сюда ссылку на аскинему с управлением таблицами -->
-[![asciicast](https://asciinema.org/a/ВАШ_ID_1.svg)](https://asciinema.org/a/ВАШ_ID_1)
+[![asciicast](https://asciinema.org/a/7TnvdF6j62Fln2sS.svg)](https://asciinema.org/a/7TnvdF6j62Fln2sS)
 
 ## CRUD-операции
 
@@ -89,7 +89,7 @@ uv run database   # или: make run
 ```
 
 <!-- Вставьте сюда ссылку на аскинему с CRUD-операциями -->
-[![asciicast](https://asciinema.org/a/ВАШ_ID_2.svg)](https://asciinema.org/a/ВАШ_ID_2)
+[![asciicast](https://asciinema.org/a/7TnvdF6j62Fln2sS.svg)](https://asciinema.org/a/7TnvdF6j62Fln2sS)
 
 ## Обработка ошибок и декораторы
 
@@ -102,7 +102,7 @@ uv run database   # или: make run
 - `create_cacher` — замыкание, которое кэширует результаты одинаковых запросов `select`.
 
 <!-- Вставьте сюда ссылку на финальную аскинему -->
-[![asciicast](https://asciinema.org/a/ВАШ_ID_3.svg)](https://asciinema.org/a/ВАШ_ID_3)
+[![asciicast](https://asciinema.org/a/7TnvdF6j62Fln2sS.svg)](https://asciinema.org/a/7TnvdF6j62Fln2sS)
 
 ## Структура проекта
 
